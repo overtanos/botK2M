@@ -22,7 +22,7 @@ def run_flask():
 Thread(target=run_flask, daemon=True).start()
 # ─────────────────────────────────────────────────────────────────────────────
 
-TOKEN = os.environ.get("DISCORD_TOKEN")
+TOKEN = os.environ.get("MTUwMzgwNjMzNTM4NzQzNTE5Mg.G1OFbv.1NIUBGG3G0wz0arPbtAoIVAdZuzIHI6V7lW6BU")
 if not TOKEN:
     raise ValueError("❌ La variable d'environnement DISCORD_TOKEN est manquante !")
 
